@@ -11,7 +11,7 @@
 
 body {
   font-size: 10px;
-  background: rgb(149, 194, 215);
+  background: #85DAFF;
 }
 
 .logo-text {
@@ -55,7 +55,7 @@ a {
   display: block;
   margin: 0;
   padding: 4px 10px;
-  background: rgb(96, 125, 139);
-  color: rgb(202, 238, 255);
+  background: #426D7F;
+  color: #85DAFF;
   font-size: 18px;
 }
