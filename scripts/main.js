@@ -30,8 +30,8 @@ function addThumbClickHandler(thumb) {
   'use strict';
   thumb.addEventListener('click', function(event) {
     event.preventDefault();
+    setDetailsFromThumb(thumb);
   });
-  setDetailsFromThumb(thumb);
 }
 
 function getThumbnailsArray() {
@@ -47,4 +47,4 @@ function initializeEvents() {
   thumbnails.forEach(addThumbClickHandler);
 }
 
-// initializeEvents();
+initializeEvents();
