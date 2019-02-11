@@ -116,6 +116,13 @@ a {
   /* оставляет позиционирование в обычном потоке */
   position: relative;
   text-align: center;
+
+  transition: transform 333ms cubic-bezier(.19,.24,.74,1.02);
+}
+
+.is-tiny {
+  transform: scale(0.001);
+  transition: transform 0ms;
 }
 
 .detail-image {
